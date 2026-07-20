@@ -1,0 +1,314 @@
+{
+  "overall_accuracy": 98.0,
+  "per_field": {
+    "intent": 100.0,
+    "emotion": 90.0,
+    "sentiment": 100.0,
+    "priority": 100.0,
+    "department": 100.0
+  },
+  "avg_latency_ms": 7398.6,
+  "avg_confidence": 91.0,
+  "results": [
+    {
+      "email": "My account has been hacked. Please block immediately....",
+      "latency_ms": 723.3,
+      "intent": {
+        "expected": "fraud",
+        "got": "fraud",
+        "match": true
+      },
+      "emotion": {
+        "expected": "fear",
+        "got": "fear",
+        "match": true
+      },
+      "sentiment": {
+        "expected": "negative",
+        "got": "negative",
+        "match": true
+      },
+      "priority": {
+        "expected": "critical",
+        "got": "critical",
+        "match": true
+      },
+      "department": {
+        "expected": "fraud team",
+        "got": "fraud team",
+        "match": true
+      },
+      "all_correct": true
+    },
+    {
+      "email": "I want a refund for my order #1234. It has been 2 weeks....",
+      "latency_ms": 621.3,
+      "intent": {
+        "expected": "refund",
+        "got": "refund",
+        "match": true
+      },
+      "emotion": {
+        "expected": "frustrated",
+        "got": "frustrated",
+        "match": true
+      },
+      "sentiment": {
+        "expected": "negative",
+        "got": "negative",
+        "match": true
+      },
+      "priority": {
+        "expected": "medium",
+        "got": "medium",
+        "match": true
+      },
+      "department": {
+        "expected": "refunds team",
+        "got": "refunds team",
+        "match": true
+      },
+      "all_correct": true
+    },
+    {
+      "email": "I am unable to login. OTP is not coming to my phone....",
+      "latency_ms": 293.4,
+      "intent": {
+        "expected": "password reset",
+        "got": "password reset",
+        "match": true
+      },
+      "emotion": {
+        "expected": "confused",
+        "got": "confused",
+        "match": true
+      },
+      "sentiment": {
+        "expected": "negative",
+        "got": "negative",
+        "match": true
+      },
+      "priority": {
+        "expected": "high",
+        "got": "high",
+        "match": true
+      },
+      "department": {
+        "expected": "tech support",
+        "got": "tech support",
+        "match": true
+      },
+      "all_correct": true
+    },
+    {
+      "email": "Thank you so much! Your support team resolved my issue quick...",
+      "latency_ms": 287.5,
+      "intent": {
+        "expected": "feedback",
+        "got": "feedback",
+        "match": true
+      },
+      "emotion": {
+        "expected": "happy",
+        "got": "happy",
+        "match": true
+      },
+      "sentiment": {
+        "expected": "positive",
+        "got": "positive",
+        "match": true
+      },
+      "priority": {
+        "expected": "low",
+        "got": "low",
+        "match": true
+      },
+      "department": {
+        "expected": "customer care",
+        "got": "customer care",
+        "match": true
+      },
+      "all_correct": true
+    },
+    {
+      "email": "I want to cancel my subscription immediately....",
+      "latency_ms": 1337.1,
+      "intent": {
+        "expected": "cancellation",
+        "got": "cancellation",
+        "match": true
+      },
+      "emotion": {
+        "expected": "neutral",
+        "got": "frustrated",
+        "match": false
+      },
+      "sentiment": {
+        "expected": "negative",
+        "got": "negative",
+        "match": true
+      },
+      "priority": {
+        "expected": "medium",
+        "got": "medium",
+        "match": true
+      },
+      "department": {
+        "expected": "retention team",
+        "got": "retention team",
+        "match": true
+      },
+      "all_correct": false
+    },
+    {
+      "email": "When will my invoice be generated? I need it for GST filing....",
+      "latency_ms": 17562.2,
+      "intent": {
+        "expected": "invoice",
+        "got": "invoice",
+        "match": true
+      },
+      "emotion": {
+        "expected": "neutral",
+        "got": "neutral",
+        "match": true
+      },
+      "sentiment": {
+        "expected": "neutral",
+        "got": "neutral",
+        "match": true
+      },
+      "priority": {
+        "expected": "low",
+        "got": "low",
+        "match": true
+      },
+      "department": {
+        "expected": "billing team",
+        "got": "billing team",
+        "match": true
+      },
+      "all_correct": true
+    },
+    {
+      "email": "I will take legal action if my issue is not resolved today....",
+      "latency_ms": 7799.0,
+      "intent": {
+        "expected": "legal",
+        "got": "legal",
+        "match": true
+      },
+      "emotion": {
+        "expected": "angry",
+        "got": "angry",
+        "match": true
+      },
+      "sentiment": {
+        "expected": "negative",
+        "got": "negative",
+        "match": true
+      },
+      "priority": {
+        "expected": "critical",
+        "got": "critical",
+        "match": true
+      },
+      "department": {
+        "expected": "legal team",
+        "got": "legal team",
+        "match": true
+      },
+      "all_correct": true
+    },
+    {
+      "email": "My payment failed 3 times but money got deducted from my acc...",
+      "latency_ms": 11470.7,
+      "intent": {
+        "expected": "payment issue",
+        "got": "payment issue",
+        "match": true
+      },
+      "emotion": {
+        "expected": "frustrated",
+        "got": "frustrated",
+        "match": true
+      },
+      "sentiment": {
+        "expected": "negative",
+        "got": "negative",
+        "match": true
+      },
+      "priority": {
+        "expected": "high",
+        "got": "high",
+        "match": true
+      },
+      "department": {
+        "expected": "billing team",
+        "got": "billing team",
+        "match": true
+      },
+      "all_correct": true
+    },
+    {
+      "email": "I would like to know about your enterprise pricing plans....",
+      "latency_ms": 16402.4,
+      "intent": {
+        "expected": "sales lead",
+        "got": "sales lead",
+        "match": true
+      },
+      "emotion": {
+        "expected": "neutral",
+        "got": "neutral",
+        "match": true
+      },
+      "sentiment": {
+        "expected": "neutral",
+        "got": "neutral",
+        "match": true
+      },
+      "priority": {
+        "expected": "low",
+        "got": "low",
+        "match": true
+      },
+      "department": {
+        "expected": "sales team",
+        "got": "sales team",
+        "match": true
+      },
+      "all_correct": true
+    },
+    {
+      "email": "I am interested in a partnership opportunity with your compa...",
+      "latency_ms": 17489.1,
+      "intent": {
+        "expected": "partnership",
+        "got": "partnership",
+        "match": true
+      },
+      "emotion": {
+        "expected": "excited",
+        "got": "excited",
+        "match": true
+      },
+      "sentiment": {
+        "expected": "positive",
+        "got": "positive",
+        "match": true
+      },
+      "priority": {
+        "expected": "low",
+        "got": "low",
+        "match": true
+      },
+      "department": {
+        "expected": "sales team",
+        "got": "sales team",
+        "match": true
+      },
+      "all_correct": true
+    }
+  ]
+}

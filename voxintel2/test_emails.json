@@ -1,0 +1,82 @@
+[
+  {
+    "email": "My account has been hacked. Please block immediately.",
+    "expected_intent": "fraud",
+    "expected_emotion": "fear",
+    "expected_sentiment": "NEGATIVE",
+    "expected_priority": "Critical",
+    "expected_department": "Fraud Team"
+  },
+  {
+    "email": "I want a refund for my order #1234. It has been 2 weeks.",
+    "expected_intent": "refund",
+    "expected_emotion": "frustrated",
+    "expected_sentiment": "NEGATIVE",
+    "expected_priority": "Medium",
+    "expected_department": "Refunds Team"
+  },
+  {
+    "email": "I am unable to login. OTP is not coming to my phone.",
+    "expected_intent": "password reset",
+    "expected_emotion": "confused",
+    "expected_sentiment": "NEGATIVE",
+    "expected_priority": "High",
+    "expected_department": "Tech Support"
+  },
+  {
+    "email": "Thank you so much! Your support team resolved my issue quickly.",
+    "expected_intent": "feedback",
+    "expected_emotion": "happy",
+    "expected_sentiment": "POSITIVE",
+    "expected_priority": "Low",
+    "expected_department": "Customer Care"
+  },
+  {
+    "email": "I want to cancel my subscription immediately.",
+    "expected_intent": "cancellation",
+    "expected_emotion": "neutral",
+    "expected_sentiment": "NEGATIVE",
+    "expected_priority": "Medium",
+    "expected_department": "Retention Team"
+  },
+  {
+    "email": "When will my invoice be generated? I need it for GST filing.",
+    "expected_intent": "invoice",
+    "expected_emotion": "neutral",
+    "expected_sentiment": "NEUTRAL",
+    "expected_priority": "Low",
+    "expected_department": "Billing Team"
+  },
+  {
+    "email": "I will take legal action if my issue is not resolved today.",
+    "expected_intent": "legal",
+    "expected_emotion": "angry",
+    "expected_sentiment": "NEGATIVE",
+    "expected_priority": "Critical",
+    "expected_department": "Legal Team"
+  },
+  {
+    "email": "My payment failed 3 times but money got deducted from my account.",
+    "expected_intent": "payment issue",
+    "expected_emotion": "frustrated",
+    "expected_sentiment": "NEGATIVE",
+    "expected_priority": "High",
+    "expected_department": "Billing Team"
+  },
+  {
+    "email": "I would like to know about your enterprise pricing plans.",
+    "expected_intent": "sales lead",
+    "expected_emotion": "neutral",
+    "expected_sentiment": "NEUTRAL",
+    "expected_priority": "Low",
+    "expected_department": "Sales Team"
+  },
+  {
+    "email": "I am interested in a partnership opportunity with your company.",
+    "expected_intent": "partnership",
+    "expected_emotion": "excited",
+    "expected_sentiment": "POSITIVE",
+    "expected_priority": "Low",
+    "expected_department": "Sales Team"
+  }
+]
